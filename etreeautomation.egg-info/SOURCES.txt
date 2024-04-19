@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+etreeautomation/__init__.py
+etreeautomation/__main__.py
+etreeautomation/bot.py
+etreeautomation.egg-info/PKG-INFO
+etreeautomation.egg-info/SOURCES.txt
+etreeautomation.egg-info/dependency_links.txt
+etreeautomation.egg-info/requires.txt
+etreeautomation.egg-info/top_level.txt
+etreeautomation/resources/start.png
