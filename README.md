@@ -19,8 +19,7 @@ O E-Tree é uma iniciativa do Microsoft Edge que permite aos usuários realizar 
 ## 🔧 Tecnologias Utilizadas
 
 - Python
-- Selenium
-- WebDriver
+- BotCity Framework
 
 ## ⚙️ Pré-requisitos para Uso
 
