@@ -21,9 +21,9 @@ class Bot(DesktopBot):
         self.browse("https://www.bing.com/")
 
         # Opens E-tree
-        if self.find( "e-tree", matching=0.97, waiting_time=30000):
+        if self.find( "e-tree", matching=0.97, waiting_time=10000):
             self.click()
-
+        
             # Collect the daily water
             if self.find( "first_collection", matching=0.97, waiting_time=30000):
                 self.click()
@@ -97,7 +97,12 @@ class Bot(DesktopBot):
                         self.not_found("ctrlShiftU")
 
                 # Closes reward Page
-                self.scroll_up(clicks=150)
+                if not self.find( "closeDailyReward", matching=0.97, waiting_time=10000):
+                    self.click()
+                    self.scroll_up(clicks=150)
+                else:
+                    self.not_found("closeDailyReward")
+                 
                 if self.find( "closeReward", matching=0.97, waiting_time=10000):
                     self.click()
                 else:
@@ -351,4 +356,6 @@ class Bot(DesktopBot):
 
 if __name__ == '__main__':
     Bot.main()
+
+
 
