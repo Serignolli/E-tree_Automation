@@ -97,7 +97,7 @@ class Bot(DesktopBot):
                         self.not_found("ctrlShiftU")
 
                 # Closes reward Page
-                if not self.find( "closeDailyReward", matching=0.97, waiting_time=10000):
+                if self.find( "closeDailyReward", matching=0.97, waiting_time=10000):
                     self.click()
                     self.scroll_up(clicks=150)
                 else:
