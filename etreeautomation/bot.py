@@ -155,9 +155,11 @@ class Bot(DesktopBot):
         self.control_w()
 
         # Scroll up
+        self.wait(2000)
         self.click_at(1315, 135)
         self.wait(2000)
         self.click_at(1315, 135)
+        self.wait(1000)
 
         if self.find( "closeMissionComponent", matching=0.97, waiting_time=10000):
             self.click()
