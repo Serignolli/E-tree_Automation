@@ -27,7 +27,7 @@ Para usar este projeto, é necessário atender aos seguintes pré-requisitos:
 
 - Ter o Microsoft Edge instalado e configurado como navegador padrão.
 - Ter uma conta já cadastrada no Microsoft Edge.
-- O Microsoft Edge precisa estar no tem escuro.
+- O Microsoft Edge precisa estar no tema escuro.
 - O atalho do E-tree deve estar fixado na barra lateral.
 - Ter uma resolução de tela limitada a 1360x768 pixels.
 
